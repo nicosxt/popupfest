@@ -42,7 +42,7 @@ export default function PopupFestLanding() {
 
   return (
     <div className="h-full bg-black">
-      <div className="absolute inset-0 bg-cover bg-center z-0 opacity-60" style={{ backgroundImage: "url('/bg/eden2.png')" }} />
+      <div className="absolute inset-0 bg-cover bg-center z-0 opacity-60" style={{ backgroundImage: "url('/bg/eden2.jpg')" }} />
       {/* <video
         autoPlay
         loop
