@@ -113,12 +113,10 @@ export default function PopupFestLanding() {
         <main className="container mx-auto px-4">
           <section className="flex justify-center space-x-4 mb-8 mb-[10vh]">
             <Button size="lg" className="text-white bg-gradient-to-r from-purple-400 to-pink-300 hover:bg-purple-200  hover:from-purple-200 hover:to-pink-200 font-neue-machina-plain-light">
-              <a href="https://lu.ma/popupfest" target="_blank" rel="noopener noreferrer">
-                Get Tickets
-              </a>
+                Tickets Coming Soon
             </Button>
             <Button size="lg" className="text-white bg-gradient-to-r from-pink-300 to-red-400 hover:from-purple-200 hover:to-pink-200 font-neue-machina-plain-light">
-              <a href="https://t.me/+N3Ek_fJVqNJiYTQx" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/+baOBBkXENQM0MmIx" target="_blank" rel="noopener noreferrer">
                 Join Telegram
               </a>
             </Button>
