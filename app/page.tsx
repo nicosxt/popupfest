@@ -90,6 +90,7 @@ export default function PopupFestLanding() {
                       className="p-0 w-14 h-14 flex items-center justify-center"
                       onClick={() => window.open(partner.url, '_blank')}
                       sx={{
+                        borderRadius: '30%',
                         transition: 'transform 0.25s ease-in-out',
                         '&:hover': {
                           transform: 'translateY(-10px) scale(1.1) rotate(10deg)',
@@ -99,7 +100,7 @@ export default function PopupFestLanding() {
                       <img
                         src={`images/${partner.image_name}`}
                         alt={`${partner.partner_name} Logo`}
-                        className="max-w-full max-h-full object-contain"
+                        className="max-w-full max-h-full object-contain rounded-xl shadow-lg"
                       />
                     </Button>
                   ))}
