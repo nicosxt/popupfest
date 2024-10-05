@@ -87,7 +87,7 @@ export default function PopupFestLanding() {
                     <Button
                       key={index}
                       variant="solid"
-                      className="p-0 w-14 h-14 flex items-center justify-center"
+                      className="p-0 w-14 h-14 flex items-center justify-center reset-button"
                       onClick={() => window.open(partner.url, '_blank')}
                       sx={{
                         borderRadius: '30%',

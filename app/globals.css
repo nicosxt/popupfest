@@ -71,3 +71,9 @@ body {
 .text-shadow-lg {
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.reset-button {
+  padding-inline: 0px;
+  padding-block: 0px;
+}
+
