@@ -91,6 +91,8 @@ export default function PopupFestLanding() {
                       onClick={() => window.open(partner.url, '_blank')}
                       sx={{
                         borderRadius: '30%',
+                        paddingInline: '0',
+                        paddingBlock: '0',
                         transition: 'transform 0.25s ease-in-out',
                         '&:hover': {
                           transform: 'translateY(-10px) scale(1.1) rotate(10deg)',

@@ -73,7 +73,7 @@ body {
 }
 
 .reset-button {
-  padding-inline: 0px;
-  padding-block: 0px;
+  padding-inline: 0px !important;
+  padding-block: 0px !important;
 }
 
