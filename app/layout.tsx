@@ -25,11 +25,11 @@ const neueMachinaUltrabold = localFont({
   variable: "--font-neue-machina-ultrabold",
   weight: "800",
 });
-// const neueMachinaRegular = localFont({
-//   src: "./fonts/PPNeueMachina-InktrapRegular.otf",
-//   variable: "--font-neue-machina-regular",
-//   weight: "500",
-// });
+const neueMachinaRegular = localFont({
+  src: "./fonts/PPNeueMachina-InktrapRegular.otf",
+  variable: "--font-neue-machina-regular",
+  weight: "500",
+});
 const neueMachinaPlainLight = localFont({
   src: "./fonts/PPNeueMachina-InktrapLight.otf",
   variable: "--font-neue-machina-plain-light",
@@ -52,7 +52,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${neueMachinaUltrabold.variable} ${neueMachinaPlainLight.variable} ${firaSans.className} antialiased min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} ${neueMachinaUltrabold.variable} ${neueMachinaPlainLight.variable} ${neueMachinaRegular.variable} ${firaSans.className} antialiased min-h-screen`}
       >
         {children}
       </body>

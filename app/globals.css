@@ -17,9 +17,14 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-fira-sans);
   margin: 0;
   padding: 0;
+}
+section {
+  font-family: var(--font-neue-machina-regular);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-neue-machina-ultrabold);
 }
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -77,3 +82,12 @@ body {
   padding-block: 0px !important;
 }
 
+.background{
+  background-image: url('/bg/eden2-small4.jpg'); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
