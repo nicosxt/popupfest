@@ -4,7 +4,6 @@ import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import { Users, Sparkles, MapPin, Music, Palette } from 'lucide-react';
-import Image from 'next/image';
 
 interface Partner {
   image_name: string;
@@ -86,7 +85,7 @@ export default function PopupFestLanding() {
                             },
                           }}
                         >
-                          <Image
+                          <img
                             src={`images/${partner.image_name}`}
                             alt={`${partner.partner_name} Logo`}
                             className="max-w-full max-h-full object-contain rounded-xl shadow-lg"
@@ -163,7 +162,7 @@ export default function PopupFestLanding() {
             inspiring environment for innovation and collaboration.
           </p>
           <a href="https://4seas.io/" target="_blank" rel="noopener noreferrer">
-            <Image
+            <img
               src="/bg/4seas.jpg"
               alt="4seas Mountainview venue"
               className="w-full max-w-[90%] mx-auto rounded-lg shadow-lg opacity-90 hover:opacity-100 hover:scale-105 transition-all duration-500"
