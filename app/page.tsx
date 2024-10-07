@@ -11,7 +11,7 @@ interface Partner {
   url: string;
 }
 
-export default function PopupFestLanding() {
+export default function PopUpFestLanding() {
   const [partners, setPartners] = React.useState<Partner[]>([]);
   React.useEffect(() => {
     const fetchPartners = async () => {
@@ -49,7 +49,7 @@ export default function PopupFestLanding() {
         <div className="background">
           <div className="flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center text-center px-4 text-white text-shadow-lg max-w-[80vw] mx-auto pb-[3vh]">
-              <h1 className="animate-fade-in-drop-down text-5xl sm:text-6xl md:text-8xl mb-[5vh] font-neue-machina-ultrabold tracking-[0.1rem] sm:tracking-[8px]">Popup&nbsp;Fest</h1>
+              <h1 className="animate-fade-in-drop-down text-5xl sm:text-6xl md:text-8xl mb-[5vh] font-neue-machina-ultrabold tracking-[0.1rem] sm:tracking-[8px]">PopUp&nbsp;Fest</h1>
               <p className="animate-fade-in text-xl sm:text-2xl md:text-4xl font-neue-machina-regular pb-3 mt-[3vh]">Chiang Mai, Thailand | Nov 7-10</p>
               <p className="animate-fade-in text-lg sm:text-xl md:text-2xl mb-6 font-neue-machina-plain-light">A co-created celebration of innovation, culture, and community</p>
           </div>
@@ -68,7 +68,7 @@ export default function PopupFestLanding() {
             {/* Partners Section */}
             <section className="pb-[2vh]">
               <div className="max-w-[70vw] sm:max-w-[70vw] mx-auto sm:pt-0 md:pt-[10vh] pb-[5vh]">
-                  <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-10 sm:gap-4 md:gap-[5vw] justify-items-center">
+                  <div className="flex flex-wrap justify-center max-w-[40vw] grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-[2vw] md:gap-[2vw]">
                     {partners.map((partner, index) => (
                         <Button
                           key={index}
@@ -76,7 +76,7 @@ export default function PopupFestLanding() {
                           className="p-0 md:w-14 md:h-14 sm:w-10 sm:h-10 flex items-center justify-center reset-button"
                           onClick={() => window.open(partner.url, '_blank')}
                           sx={{
-                            borderRadius: '30%',
+                            borderRadius: '20%',
                             paddingInline: '0',
                             paddingBlock: '0',
                             transition: 'transform 0.25s ease-in-out',
@@ -88,7 +88,7 @@ export default function PopupFestLanding() {
                           <img
                             src={`images/${partner.image_name}`}
                             alt={`${partner.partner_name} Logo`}
-                            className="max-w-full max-h-full object-contain rounded-xl shadow-lg"
+                            className="max-w-full max-h-full object-contain shadow-lg"
                           />
                         </Button>
                       ))}
@@ -114,9 +114,9 @@ export default function PopupFestLanding() {
         {/* About Section */}
       <section className="min-h-[60vh] py-20 px-4 bg-gradient-to-r from-purple-400 to-blue-300">
         <div className="max-w-4xl mx-auto text-center text-black">
-          <h2 className="text-4xl font-bold mb-8">About Popup Fest</h2>
+          <h2 className="text-4xl font-bold mb-8">About PopUp Fest</h2>
           <p className="text-lg mb-8">
-            Popup Fest is a celebration of the month-long convergence of global innovators, founders, and technologists. 
+            PopUp Fest is a celebration of the month-long convergence of global innovators, founders, and technologists. 
             This four-day event brings together diverse communities from 12+ popup villages in Chiang Mai, showcasing 
             cross-village collaborations, project demonstrations, art, mucis, culture, and local cultural integration.
           </p>
@@ -158,7 +158,7 @@ export default function PopupFestLanding() {
           <h2 className="text-4xl font-bold mb-[5vh]">The Venue</h2>
           <p className="text-lg mb-[5vh]">
             Set against the stunning backdrop of Chiang Mai&apos;s mountains, <a href="https://4seas.io/" target="_blank" rel="noopener noreferrer"><u>4seas Mountainview</u></a> provides the perfect setting 
-            for Popup Fest. This picturesque venue offers a blend of natural beauty and modern amenities, creating an 
+            for PopUp Fest. This picturesque venue offers a blend of natural beauty and modern amenities, creating an 
             inspiring environment for innovation and collaboration.
           </p>
           <a href="https://4seas.io/" target="_blank" rel="noopener noreferrer">
@@ -174,7 +174,7 @@ export default function PopupFestLanding() {
       {/* CTA Section */}
       <section className="min-h-[70vh] py-20 px-4 bg-gradient-to-r from-yellow-200 to-green-200 text-black flex items-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Be Part of Popup Fest 2024</h2>
+          <h2 className="text-4xl font-bold mb-8">Be Part of PopUp Fest 2024</h2>
           <p className="text-xl mb-8">
             Don&apos;t miss this unique opportunity to connect, innovate, and celebrate with a global community of creators and visionaries.
           </p>
@@ -188,7 +188,7 @@ export default function PopupFestLanding() {
 
         {/* <footer className="text-white px-4 mt-auto">
           <div className="pt-10 container mx-auto flex justify-between items-center text-black font-neue-machina-plain-light">
-            <p>&copy; 2023 Popup Fest. All rights reserved.</p>
+            <p>&copy; 2023 PopUp Fest. All rights reserved.</p>
           </div>
         </footer> */}
       </div>
