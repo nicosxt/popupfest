@@ -59,7 +59,7 @@ export default function PopUpFestLanding() {
                   Tickets Coming Soon
               </Button>
               <Button size="lg" className="m-[2vh] sm:w-auto text-white bg-gradient-to-r from-pink-300 to-red-400 hover:from-purple-200 hover:to-pink-200 font-neue-machina-plain-light">
-                <a href="https://t.me/+baOBBkXENQM0MmIx" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/+OQShdF0tsV9iMGIx" target="_blank" rel="noopener noreferrer">
                   Join Telegram
                 </a>
               </Button>
