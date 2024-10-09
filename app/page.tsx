@@ -121,7 +121,7 @@ export default function PopUpFestLanding() {
           <p className="text-lg mb-8">
             PopUp Fest is a celebration of the month-long convergence of global innovators, founders, and technologists. 
             This four-day event brings together diverse communities from 12+ popup villages in Chiang Mai, showcasing 
-            cross-village collaborations, project demonstrations, art, mucis, culture, and local cultural integration.
+            cross-village collaborations, project demonstrations, art, music, culture, and local cultural integration.
           </p>
           <p className="text-lg mb-8">
             Join us as we bridge East and West, blending intellectual discourse, technological innovation, and culture fusion
