@@ -46,14 +46,17 @@ export default function PopUpFestLanding() {
   return (
     <div className="h-full bg-gradient-to-r from-purple-400 to-blue-300">
       <div className="relative z-10 min-h-screen flex flex-col">
+        
+        {/* Title Section */}
         <div className="background">
-          <div className="flex flex-col justify-center items-center">
-            <div className="flex flex-col justify-center items-center text-center px-4 text-white text-shadow-lg max-w-[80vw] mx-auto pb-[3vh]">
+          <div className="flex flex-col justify-center items-center min-h-screen">
+            <div className="flex flex-col justify-center items-center text-center px-4 text-white text-shadow-lg mx-auto pt-[15vh]">
               <h1 className="animate-fade-in-drop-down text-5xl sm:text-6xl md:text-8xl mb-[5vh] font-neue-machina-ultrabold tracking-[0.1rem] sm:tracking-[8px]">PopUp&nbsp;Fest</h1>
               <p className="animate-fade-in text-xl sm:text-2xl md:text-4xl font-neue-machina-regular pb-3 mt-[3vh]">Chiang Mai, Thailand | Nov 7-10</p>
-              <p className="animate-fade-in text-lg sm:text-xl md:text-2xl mb-6 font-neue-machina-plain-light">A co-created celebration of innovation, culture, and community</p>
+              <p className="animate-fade-in text-lg sm:text-xl md:text-2xl font-neue-machina-plain-light">A co-created celebration of innovation, culture, and community</p>
           </div>
 
+          {/* CTA Section */}
           <div className="flex flex-col sm:flex-row justify-center items-center space-x-4 mb-8 mb-[3vh] mt-[5vh]">
               <Button size="lg" className="m-[2vh] sm:w-auto text-white bg-gradient-to-r from-purple-400 to-pink-300 hover:bg-purple-200  hover:from-purple-200 hover:to-pink-200 font-neue-machina-plain-light">
                   Tickets Coming Soon
@@ -68,7 +71,7 @@ export default function PopUpFestLanding() {
             {/* Partners Section */}
             <section className="pb-[2vh]">
               <div className="max-w-[70vw] sm:max-w-[70vw] mx-auto sm:pt-0 md:pt-[10vh] pb-[5vh]">
-                  <div className="flex flex-wrap justify-center max-w-[40vw] grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-[2vw] md:gap-[2vw]">
+                  <div className="flex flex-wrap justify-center sm:max-w-[70vw] grid grid-cols-4 md:grid-cols-8 gap-[3vw] md:gap-[2vw]">
                     {partners.map((partner, index) => (
                         <Button
                           key={index}
