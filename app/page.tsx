@@ -52,7 +52,7 @@ export default function PopUpFestLanding() {
           <div className="flex flex-col justify-center items-center min-h-screen">
             <div className="flex flex-col justify-center items-center text-center px-4 text-white text-shadow-lg mx-auto pt-[15vh]">
               <h1 className="animate-fade-in-drop-down text-5xl sm:text-6xl md:text-8xl mb-[5vh] font-neue-machina-ultrabold tracking-[0.1rem] sm:tracking-[8px]">PopUp&nbsp;Fest</h1>
-              <p className="animate-fade-in text-xl sm:text-2xl md:text-4xl font-neue-machina-regular pb-3 mt-[3vh]">Chiang Mai, Thailand | Nov 7-10</p>
+              <p className="animate-fade-in text-xl sm:text-2xl md:text-4xl font-neue-machina-regular pb-3 mt-[3vh]">Chiang Mai, Thailand | Nov 8-9</p>
               <p className="animate-fade-in text-lg sm:text-xl md:text-2xl font-neue-machina-plain-light">A co-created celebration of innovation, culture, and community</p>
           </div>
 
