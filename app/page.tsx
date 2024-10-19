@@ -59,7 +59,9 @@ export default function PopUpFestLanding() {
           {/* CTA Section */}
           <div className="flex flex-col sm:flex-row justify-center items-center space-x-4 mb-8 mb-[3vh] mt-[5vh]">
               <Button size="lg" className="m-[2vh] sm:w-auto text-white bg-gradient-to-r from-purple-400 to-pink-300 hover:bg-purple-200  hover:from-purple-200 hover:to-pink-200 font-neue-machina-plain-light">
-                  Tickets Coming Soon
+                  <a href="https://lu.ma/w8tm6xj3" target="_blank" rel="noopener noreferrer">
+                  Register
+                  </a>
               </Button>
               <Button size="lg" className="m-[2vh] sm:w-auto text-white bg-gradient-to-r from-pink-300 to-red-400 hover:from-purple-200 hover:to-pink-200 font-neue-machina-plain-light">
                 <a href="https://t.me/+OQShdF0tsV9iMGIx" target="_blank" rel="noopener noreferrer">

@@ -37,7 +37,7 @@ const neueMachinaPlainLight = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Poup Fest",
+  title: "PopUp Fest",
   description: "Closing　Celebration for Pop-up Villages in Chiangmai, Thailand",
 };
 
